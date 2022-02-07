@@ -1,0 +1,3 @@
+[submodule "DoublePopsicle/third_party/spdlog"]
+	path = DoublePopsicle/third_party/spdlog
+	url = https://github.com/gabime/spdlog.git

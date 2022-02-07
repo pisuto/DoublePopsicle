@@ -9,3 +9,5 @@
 #else
 	#error DoublePopsicle only support windows now!
 #endif // DP_PLATFORM_WIN
+
+#define BIT(x) (1 << x)

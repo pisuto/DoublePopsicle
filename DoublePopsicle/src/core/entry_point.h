@@ -6,6 +6,9 @@ extern dp::Application* dp::createApplication();
 
 int main(int argc, char** argv)
 {
+	dp::log::init();
+	DP_CORE_WARN("initialized log!");
+
 	auto app = dp::createApplication();
 	app->run();
 	delete app;
