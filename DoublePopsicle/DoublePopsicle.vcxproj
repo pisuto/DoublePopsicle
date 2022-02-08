@@ -146,6 +146,10 @@
     <ClInclude Include="src\core\application.h" />
     <ClInclude Include="src\core\core.h" />
     <ClInclude Include="src\core\entry_point.h" />
+    <ClInclude Include="src\core\event\app_event.h" />
+    <ClInclude Include="src\core\event\event.h" />
+    <ClInclude Include="src\core\event\key_event.h" />
+    <ClInclude Include="src\core\event\mouse_event.h" />
     <ClInclude Include="src\core\log.h" />
     <ClInclude Include="src\popsicle.h" />
   </ItemGroup>

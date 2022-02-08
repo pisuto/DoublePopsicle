@@ -26,13 +26,14 @@ project "DoublePopsicle"
 
     includedirs
     {
+        "%{prj.name}/src",
         "%{prj.name}/third_party/spdlog/include"
     }
 
     filter "system:windows"
         cppdialect "C++17"
         staticruntime "On"
-        systemversion "10.0.19041.0"
+        systemversion "latest"
 
         defines
         {
@@ -86,7 +87,7 @@ project "DoublePopsicle"
         filter "system:windows"
             cppdialect "C++17"
             staticruntime "On"
-            systemversion "10.0.19041.0"
+            systemversion "latest"
     
             defines
             {

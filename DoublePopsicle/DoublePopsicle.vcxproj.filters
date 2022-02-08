@@ -19,6 +19,10 @@
       <Filter>core</Filter>
     </ClInclude>
     <ClInclude Include="src\popsicle.h" />
+    <ClInclude Include="src\core\event\app_event.h" />
+    <ClInclude Include="src\core\event\event.h" />
+    <ClInclude Include="src\core\event\key_event.h" />
+    <ClInclude Include="src\core\event\mouse_event.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\core\application.cpp">
